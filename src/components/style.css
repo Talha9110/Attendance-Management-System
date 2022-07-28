@@ -1,0 +1,206 @@
+body{
+    background-image: url(https://kissflow.com/hubfs/attendance-management-system.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+}
+
+/* Update profile pic */
+.pic {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+/* sign up page */
+
+.signup-form > .title{
+    text-align: center;
+    padding: 20px;
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+
+.signup > .card{
+    min-width: 400px;
+    background: rgba(9, 9, 9, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.7px);
+    -webkit-backdrop-filter: blur(6.7px);
+    border: 1px solid rgba(255, 255, 255, 0.31);
+}
+
+/* login page */
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.login > .card{
+    min-width: 400px;
+    background: rgba(9, 9, 9, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.7px);
+    -webkit-backdrop-filter: blur(6.7px);
+    border: 1px solid rgba(255, 255, 255, 0.31);
+}
+
+/* forgot password */
+.forgot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.forgot > .card{
+    min-width: 400px;
+    background: rgba(9, 9, 9, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.7px);
+    -webkit-backdrop-filter: blur(6.7px);
+    border: 1px solid rgba(255, 255, 255, 0.31);
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+/* user-page */
+
+.user-page{
+    display: flex;
+    
+}
+
+.user-page > .info{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 0.2;
+    background: rgba(9, 9, 9, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.7px);
+    -webkit-backdrop-filter: blur(6.7px);
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    min-width: 230px;
+}
+
+.info > div{
+    padding: 20px;
+    display: block;
+    height: 100vh;
+
+}
+
+.info > .info__detail > .email {
+    margin-left: 30px;
+}
+
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    flex:0.8;
+}
+
+.user > .card{
+    min-width: 400px;
+    background: rgba(9, 9, 9, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.7px);
+    -webkit-backdrop-filter: blur(6.7px);
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    color: white;
+}
+
+.pic-user{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+/* apply text area */
+
+.text__area{
+    resize: none;
+}
+
+/* update profile */
+.update_profile .card{
+    min-width: 400px;
+    background: rgba(9, 9, 9, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.7px);
+    -webkit-backdrop-filter: blur(6.7px);
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    color: white;
+}
+
+.update_profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.update_profile > .card > .pic-user {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+/* View attendance */
+.attendance{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    flex:0.7;
+    margin: 10px auto;
+    /* border: 1px solid red; */
+}
+
+.table{
+    background-color: black;
+    border-radius: 8px;
+}
+
+.table > thead{
+    color: white;
+}
+
+.table > tbody{
+    color: white;
+}
